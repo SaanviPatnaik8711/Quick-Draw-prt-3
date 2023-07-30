@@ -1,0 +1,46 @@
+body{
+    background-color: orange;
+}
+
+h1{
+    color: orange;
+    background-color: yellow;
+
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    font-size: 24px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+    color: yellow;
+}
+
+#timer{
+    font-size: 35px;
+    margin-right: 20px;
+    color: yellow;
+    float: right;
+}
